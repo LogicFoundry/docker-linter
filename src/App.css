@@ -13,7 +13,12 @@
   }
 }
 
+.Checkmark {
+  width: 2.5vh;
+}
+
 .Editor {
+  margin-top: 5vh;
   border: 5px solid white;
   border-radius: 5px;
   background-color: white;
@@ -55,6 +60,11 @@ input:focus, textarea:focus, select:focus{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.Text {
+  color: white;
+  min-height: 12vh;
 }
 
 .App-link {
