@@ -9,7 +9,7 @@ import './App.css';
 
 const exampleCode = `FROM ubuntu:18.04
 
-LABEL maintainer="damianperera@medium.com"
+LABEL maintainer="dev@logicfoundry.tech"
 
 RUN apt-get update -y && \\
     apt-get install -y g++ build-essential gcc libc6-dev python2.7 python2.7-dev supervisor cron vim unzip curl wget tree
