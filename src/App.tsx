@@ -32,7 +32,6 @@ CMD java -version`
 function App() {
   const [ value, setValue ] = useState(exampleCode);
   const { valid, errors } = validator(value);
-  !valid && console.debug(errors)
   return (
     <div className="App">
       <header className="App-header">
