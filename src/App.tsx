@@ -49,7 +49,7 @@ function App() {
             style={{
               fontFamily: '"Fira code", "Fira Mono", monospace',
               fontSize: 16,
-              width: 800
+              width: '100%'
             }}
           />
         </div>
