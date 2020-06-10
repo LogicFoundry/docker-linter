@@ -14,6 +14,7 @@
 }
 
 .Checkmark {
+  padding-top: 1vh;
   width: 2.5vh;
 }
 
@@ -22,8 +23,7 @@
   border: 5px solid white;
   border-radius: 5px;
   background-color: white;
-  min-height: 80vh;
-  height: 80vh;
+  height: 78vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -64,7 +64,24 @@ input:focus, textarea:focus, select:focus{
 
 .Text {
   color: white;
-  min-height: 12vh;
+  margin-top: 3vh;
+  height: 3vh
+}
+
+.Copyright {
+  color: white;
+  font-size: 12px;
+  margin-top: 5vh;
+}
+
+.Copyright a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.Copyright a:hover {
+  color: lightcoral;
+  cursor: pointer;
 }
 
 .App-link {

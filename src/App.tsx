@@ -54,12 +54,13 @@ function App() {
           />
         </div>
         <div className="Text">
-          <h4>{
-            valid 
+          { valid 
               ? (<img alt="checkmark" src={checkmark} className="Checkmark"></img>)
-          : (<p style={{fontSize: '1.75vh'}}>{errors[0].message}{errors[0].line && ` at line ${errors[0].line}`}</p>)
+              : (<p style={{fontSize: '1.75vh'}}>{errors[0].message}{errors[0].line && ` at line ${errors[0].line}`}</p>)
           }
-          </h4>
+        </div>
+        <div className="Copyright">
+            &copy; 2020 <a href='https://github.com/LogicFoundry'>Logic Foundry</a> - <a href='https://github.com/LogicFoundry/docker-linter/blob/master/LICENSE'>MIT License</a>
         </div>
       </header>
     </div>
