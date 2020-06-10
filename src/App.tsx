@@ -30,7 +30,7 @@ RUN update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_191/bin/j
 CMD java -version`
 
 function App() {
-  const [value, setValue] = useState(exampleCode);
+  const [ value, setValue ] = useState(exampleCode);
   const { valid, errors } = validator(value);
   !valid && console.debug(errors)
   return (
@@ -51,7 +51,9 @@ function App() {
         </div>
         <div className="Text">
           <h4>{
-            valid && (<img alt="checkmark" src={checkmark} className="Checkmark"></img>)
+            valid 
+              ? (<img alt="checkmark" src={checkmark} className="Checkmark"></img>)
+          : (<p style={{fontSize: '1.75vh'}}>{errors[0].message}{errors[0].line && ` at line ${errors[0].line}`}</p>)
           }
           </h4>
         </div>
