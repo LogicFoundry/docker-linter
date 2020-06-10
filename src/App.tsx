@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Editor from 'react-simple-code-editor';
 // @ts-ignore
 import { highlight, languages } from 'prismjs/components/prism-core';
@@ -32,6 +32,11 @@ CMD java -version`
 function App() {
   const [ value, setValue ] = useState(exampleCode);
   const { valid, errors } = validator(value);
+
+  useEffect(() => {
+    console.log('\x1b[33m%s\x1b[0m','Contribute to this project on GitHub at https://github.com/LogicFoundry/docker-linter')
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
