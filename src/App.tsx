@@ -29,6 +29,12 @@ RUN update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.8.0_191/bin/j
 
 CMD java -version`
 
+const hightLightWithLineNumbers = (input: string, language: any, variant: string) =>
+  highlight(input, language, variant)
+    .split("\n")
+    .map((line: string, i: number) => `<span class='editorLineNumber'>${i + 1}</span>${line}`)
+    .join("\n");
+
 function App() {
   const [ value, setValue ] = useState(exampleCode);
   const { valid, errors } = validator(value);
@@ -44,8 +50,10 @@ function App() {
           <Editor
             value={value}
             onValueChange={setValue}
-            highlight={(code:string) => highlight(code, languages.js, 'docker')}
+            highlight={(code:string) => hightLightWithLineNumbers(code, languages.js, 'docker')}
             padding={10}
+            className="TextEditor"
+            textareaId="codeArea"
             style={{
               fontFamily: '"Fira code", "Fira Mono", monospace',
               fontSize: 16,

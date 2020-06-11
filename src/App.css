@@ -97,3 +97,25 @@ input:focus, textarea:focus, select:focus{
     transform: rotate(360deg);
   }
 }
+
+.TextEditor {
+  counter-reset: line;
+}
+
+.TextEditor #codeArea {
+  outline: none;
+  padding-left: 60px !important;
+}
+
+.TextEditor pre {
+  padding-left: 60px !important;
+}
+
+.TextEditor .editorLineNumber {
+  position: absolute;
+  left: 0px;
+  color: #cccccc;
+  text-align: right;
+  width: 40px;
+  font-weight: 100;
+}
