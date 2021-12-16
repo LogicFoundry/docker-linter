@@ -19,7 +19,7 @@ jobs:
         yarn install
         yarn build
       env:
-          PUBLIC_URL: https://logicfoundry.github.io/docker-linter/
+        PUBLIC_URL: https://logicfoundry.github.io/docker-linter/
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
