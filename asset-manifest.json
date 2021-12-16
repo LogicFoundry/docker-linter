@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3f6c33f.chunk.css",
-    "main.js": "/static/js/main.6aa2c5ff.chunk.js",
-    "main.js.map": "/static/js/main.6aa2c5ff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cf8f8b52.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cf8f8b52.js.map",
-    "static/css/2.2b084824.chunk.css": "/static/css/2.2b084824.chunk.css",
-    "static/js/2.c1444693.chunk.js": "/static/js/2.c1444693.chunk.js",
-    "static/js/2.c1444693.chunk.js.map": "/static/js/2.c1444693.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8bfa9cb85744f9b484f6ed4e43621247.js": "/precache-manifest.8bfa9cb85744f9b484f6ed4e43621247.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.2b084824.chunk.css.map": "/static/css/2.2b084824.chunk.css.map",
-    "static/css/main.d3f6c33f.chunk.css.map": "/static/css/main.d3f6c33f.chunk.css.map",
-    "static/js/2.c1444693.chunk.js.LICENSE.txt": "/static/js/2.c1444693.chunk.js.LICENSE.txt"
+    "main.css": "https://logicfoundry.github.io/docker-linter/static/css/main.d3f6c33f.chunk.css",
+    "main.js": "https://logicfoundry.github.io/docker-linter/static/js/main.a1bd0df6.chunk.js",
+    "main.js.map": "https://logicfoundry.github.io/docker-linter/static/js/main.a1bd0df6.chunk.js.map",
+    "runtime-main.js": "https://logicfoundry.github.io/docker-linter/static/js/runtime-main.1b4c1969.js",
+    "runtime-main.js.map": "https://logicfoundry.github.io/docker-linter/static/js/runtime-main.1b4c1969.js.map",
+    "static/css/2.2b084824.chunk.css": "https://logicfoundry.github.io/docker-linter/static/css/2.2b084824.chunk.css",
+    "static/js/2.c1444693.chunk.js": "https://logicfoundry.github.io/docker-linter/static/js/2.c1444693.chunk.js",
+    "static/js/2.c1444693.chunk.js.map": "https://logicfoundry.github.io/docker-linter/static/js/2.c1444693.chunk.js.map",
+    "index.html": "https://logicfoundry.github.io/docker-linter/index.html",
+    "precache-manifest.0b92c1a223c260c5ff235f10c46899cc.js": "https://logicfoundry.github.io/docker-linter/precache-manifest.0b92c1a223c260c5ff235f10c46899cc.js",
+    "service-worker.js": "https://logicfoundry.github.io/docker-linter/service-worker.js",
+    "static/css/2.2b084824.chunk.css.map": "https://logicfoundry.github.io/docker-linter/static/css/2.2b084824.chunk.css.map",
+    "static/css/main.d3f6c33f.chunk.css.map": "https://logicfoundry.github.io/docker-linter/static/css/main.d3f6c33f.chunk.css.map",
+    "static/js/2.c1444693.chunk.js.LICENSE.txt": "https://logicfoundry.github.io/docker-linter/static/js/2.c1444693.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cf8f8b52.js",
+    "static/js/runtime-main.1b4c1969.js",
     "static/css/2.2b084824.chunk.css",
     "static/js/2.c1444693.chunk.js",
     "static/css/main.d3f6c33f.chunk.css",
-    "static/js/main.6aa2c5ff.chunk.js"
+    "static/js/main.a1bd0df6.chunk.js"
   ]
 }
